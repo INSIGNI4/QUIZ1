@@ -11,7 +11,8 @@ void main() {
   double convertedToC = fahrenheitToCelsius(fahrenheit);
   print('${fahrenheit}°F = ${convertedToC.toStringAsFixed(1)}°C');
 
-
+  describeWeather(celsius);
+  describeWeather(fahrenheit);
 
 
 }
